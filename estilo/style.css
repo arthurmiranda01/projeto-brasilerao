@@ -115,3 +115,7 @@ div.vermelho {
     padding: 0px;
     margin: 0px;
 }
+
+div#container {
+    overflow-x: auto;
+}
