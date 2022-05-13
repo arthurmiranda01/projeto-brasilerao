@@ -71,8 +71,8 @@ table {
     font-size: 14px;
 }
 td, th {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    border-top: 1px solid rgb(73, 73, 73);
     padding: 10px;
 }
 
@@ -95,4 +95,23 @@ thead > tr > th {
 
 img {
     padding-top: -20px;
+}
+
+img.foto {
+    display: block;
+    margin: auto;
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #202124;
+}
+
+div.vermelho {
+    background-color:var(--cor5);
+    width: 3px;
+    max-width: 3px;
+    height:40px;
+    padding: 0px;
+    margin: 0px;
 }
